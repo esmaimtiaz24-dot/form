@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inquiry Form - FOREVER CHEMICAL(SMC)PVT LTD</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#f0f7ff',
+                            100: '#e0effe',
+                            500: '#0284c7',
+                            600: '#0061a8',
+                            700: '#004b87',
+                            800: '#033a6b',
+                            900: '#062d52',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-900 font-sans text-slate-100 min-h-screen py-6 px-3 sm:px-6 lg:px-8 flex flex-col justify-between">
+
+    <!-- Top Navigation Header -->
+    <header class="max-w-7xl mx-auto w-full mb-6">
+        <div class="bg-slate-800/80 backdrop-blur-md border border-slate-700/60 rounded-2xl p-4 sm:p-5 shadow-xl flex flex-col md:flex-row items-center justify-between gap-4">
+            
+            <!-- Logo + Company Name Section -->
+            <div class="flex items-center gap-4 text-center md:text-left">
+                <!-- Recreated SVG Logo from user uploaded image -->
+                <div class="bg-white p-2.5 rounded-xl shadow-md flex items-center justify-center min-w-[70px] h-[70px]">
+                    <svg class="w-14 h-14" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Umbrella Top -->
+                        <path d="M 20 62 C 60 22, 140 22, 180 62 C 150 52, 120 62, 100 52 C 80 62, 50 52, 20 62 Z" fill="#0052cc"/>
+                        <path d="M 100 20 L 100 52" stroke="#0052cc" stroke-width="4"/>
+                        
+                        <!-- House Frame Structure -->
+                        <path d="M 35 100 L 100 68 L 165 100 L 165 150 L 145 150 L 145 108 L 100 86 L 55 108 L 55 150 L 35 150 Z" fill="#0080ff"/>
+                        
+                        <!-- Inner Abstract Graphic (Water/Roof Shield) -->
+                        <path d="M 70 120 C 85 100, 115 100, 130 120 C 115 130, 85 130, 70 120 Z" fill="#00a3ff"/>
+                        <path d="M 60 135 C 85 125, 115 125, 140 135 C 120 145, 80 145, 60 135 Z" fill="#0052cc"/>
+                        
+                        <!-- Bottom Wave Line -->
+                        <rect x="35" y="158" width="130" height="10" rx="5" fill="#0080ff"/>
+                    </svg>
+                </div>
+
+                <div>
+                    <h1 class="text-xl sm:text-2xl font-extrabold tracking-tight text-white uppercase flex flex-wrap items-center justify-center md:justify-start gap-2">
+                        FOREVER CHEMICAL <span class="text-xs px-2 py-0.5 bg-blue-500/20 border border-blue-400/30 text-blue-300 rounded-md tracking-normal capitalize font-semibold">(SMC) PVT LTD</span>
+                    </h1>
+                    <p class="text-xs sm:text-sm text-slate-400 mt-0.5">High-Performance Waterproofing, Coatings & Construction Solutions</p>
+                </div>
+            </div>
+
+            <!-- Quick Contacts Badge -->
+            <div class="flex flex-wrap items-center justify-center gap-3 text-xs text-slate-300 border-t md:border-t-0 md:border-l border-slate-700 pt-3 md:pt-0 md:pl-6">
+                <div class="flex items-center gap-2 bg-slate-900/60 px-3 py-2 rounded-lg border border-slate-700">
+                    <i class="fa-solid fa-shield-halved text-blue-400"></i>
+                    <span>ISO Quality Certified</span>
+                </div>
+                <div class="flex items-center gap-2 bg-slate-900/60 px-3 py-2 rounded-lg border border-slate-700">
+                    <i class="fa-solid fa-headset text-emerald-400"></i>
+                    <span>Support: 24/7 Available</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Grid -->
+    <main class="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-8 my-auto">
+        
+        <!-- Left Column: Chemical Details & Solutions Info -->
+        <section class="lg:col-span-5 space-y-6">
+            <div class="bg-slate-800/60 border border-slate-700/80 rounded-2xl p-6 shadow-xl">
+                <h2 class="text-lg font-bold text-white mb-4 flex items-center gap-2.5 border-b border-slate-700 pb-3">
+                    <i class="fa-solid fa-flask-vial text-blue-400"></i>
+                    Chemical Products & Solutions
+                </h2>
+                <p class="text-xs text-slate-300 leading-relaxed mb-4">
+                    FOREVER CHEMICAL(SMC)PVT LTD specializes in premium grade chemical compounds designed for extreme durability, leak prevention, heat proofing, and industrial floor protection.
+                </p>
+
+                <!-- Product Services List -->
+                <div class="space-y-3">
+                    
+                    <div class="p-3.5 bg-slate-900/70 border border-slate-700/60 rounded-xl hover:border-blue-500/50 transition duration-200">
+                        <div class="flex items-start gap-3">
+                            <div class="p-2 bg-blue-500/10 text-blue-400 rounded-lg shrink-0 mt-0.5">
+                                <i class="fa-solid fa-umbrella text-base"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-sm font-semibold text-white">Roof & Building Waterproofing</h3>
+                                <p class="text-xs text-slate-400 mt-1">Advanced elastomeric membranes preventing water seepage, moisture penetration, and structural damage.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p-3.5 bg-slate-900/70 border border-slate-700/60 rounded-xl hover:border-blue-500/50 transition duration-200">
+                        <div class="flex items-start gap-3">
+                            <div class="p-2 bg-amber-500/10 text-amber-400 rounded-lg shrink-0 mt-0.5">
+                                <i class="fa-solid fa-sun text-base"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-sm font-semibold text-white">Heat Proofing & Solar Reflective Coatings</h3>
+                                <p class="text-xs text-slate-400 mt-1">Thermal insulation chemical coatings designed to reduce roof temperature up to 12°C-15°C.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p-3.5 bg-slate-900/70 border border-slate-700/60 rounded-xl hover:border-blue-500/50 transition duration-200">
+                        <div class="flex items-start gap-3">
+                            <div class="p-2 bg-emerald-500/10 text-emerald-400 rounded-lg shrink-0 mt-0.5">
+                                <i class="fa-solid fa-cubes-stacked text-base"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-sm font-semibold text-white">Epoxy & Industrial Floor Coatings</h3>
+                                <p class="text-xs text-slate-400 mt-1">High-impact chemical resistant flooring for warehouses, factories, pharmaceutical plants, and garages.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p-3.5 bg-slate-900/70 border border-slate-700/60 rounded-xl hover:border-blue-500/50 transition duration-200">
+                        <div class="flex items-start gap-3">
+                            <div class="p-2 bg-purple-500/10 text-purple-400 rounded-lg shrink-0 mt-0.5">
+                                <i class="fa-solid fa-fill-drip text-base"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-sm font-semibold text-white">Expansion Joint & Structural Sealants</h3>
+                                <p class="text-xs text-slate-400 mt-1">Heavy-duty polyurethane joint sealants for crack repairs, water tanks, and deep basement protection.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Guarantee Badge -->
+                <div class="mt-5 p-3 bg-blue-950/40 border border-blue-800/40 rounded-xl text-xs text-blue-200 flex items-center gap-3">
+                    <i class="fa-solid fa-award text-xl text-yellow-400 shrink-0"></i>
+                    <span>Guaranteed long-lasting chemical performance with official warranty coverage.</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Right Column: Interactive Form with Strict Validations -->
+        <section class="lg:col-span-7">
+            <div class="bg-slate-800 border border-slate-700 rounded-2xl p-6 sm:p-8 shadow-2xl relative">
+                
+                <div class="mb-6">
+                    <h2 class="text-xl font-bold text-white flex items-center gap-2">
+                        <i class="fa-solid fa-file-pen text-blue-400"></i>
+                        Chemical Technical Inquiry / Order Form
+                    </h2>
+                    <p class="text-xs text-slate-400 mt-1">Please fill in your details. All fields with <span class="text-red-400">*</span> are mandatory.</p>
+                </div>
+
+                <form id="chemicalForm" onsubmit="handleFormSubmit(event)" class="space-y-4" novalidate>
+                    
+                    <!-- Row 1: Full Name & Phone Number -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        
+                        <!-- Full Name Field -->
+                        <div>
+                            <label for="fullName" class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-1.5">
+                                Full Name <span class="text-red-400">*</span>
+                            </label>
+                            <div class="relative">
+                                <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400">
+                                    <i class="fa-regular fa-user"></i>
+                                </div>
+                                <input type="text" id="fullName" required placeholder="e.g. Ali Khan"
+                                    onblur="validateName()" oninput="validateName()"
+                                    class="w-full bg-slate-900/80 border border-slate-700 rounded-lg pl-10 pr-3.5 py-2.5 text-sm text-slate-100 placeholder-slate-500 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition">
+                            </div>
+                            <p id="nameError" class="text-xs text-red-400 mt-1 hidden flex items-center gap-1">
+                                <i class="fa-solid fa-circle-exclamation text-[10px]"></i>
+                                <span>Naam likhna zaroori hai.</span>
+                            </p>
+                        </div>
+
+                        <!-- Phone Number Field with Strict Number Validation -->
+                        <div>
+                            <label for="phone" class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-1.5">
+                                Phone Number <span class="text-red-400">*</span>
+                            </label>
+                            <div class="relative">
+                                <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400">
+                                    <i class="fa-solid fa-phone text-xs"></i>
+                                </div>
+                                <input type="text" id="phone" required placeholder="03001234567"
+                                    onblur="validatePhone()" oninput="validatePhone()"
+                                    class="w-full bg-slate-900/80 border border-slate-700 rounded-lg pl-10 pr-3.5 py-2.5 text-sm text-slate-100 placeholder-slate-500 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition">
+                            </div>
+                            <p id="phoneError" class="text-xs text-red-400 mt-1 hidden flex items-center gap-1">
+                                <i class="fa-solid fa-circle-exclamation text-[10px]"></i>
+                                <span id="phoneErrorText">Sirf numbers (0-9) allow hain. Minimum 10 digits likhein.</span>
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <!-- Row 2: Email & Date -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        
+                        <!-- Email Field with Strict Regex Email Validation -->
+                        <div>
+                            <label for="email" class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-1.5">
+                                Email Address <span class="text-red-400">*</span>
+                            </label>
+                            <div class="relative">
+                                <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400">
+                                    <i class="fa-regular fa-envelope text-xs"></i>
+                                </div>
+                                <input type="email" id="email" required placeholder="name@domain.com"
+                                    onblur="validateEmail()" oninput="validateEmail()"
+                                    class="w-full bg-slate-900/80 border border-slate-700 rounded-lg pl-10 pr-3.5 py-2.5 text-sm text-slate-100 placeholder-slate-500 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition">
+                            </div>
+                            <p id="emailError" class="text-xs text-red-400 mt-1 hidden flex items-center gap-1">
+                                <i class="fa-solid fa-circle-exclamation text-[10px]"></i>
+                                <span>Sahi email address darj karein (e.g. name@domain.com).</span>
+                            </p>
+                        </div>
+
+                        <!-- Date Field -->
+                        <div>
+                            <label for="date" class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-1.5">
+                                Date <span class="text-red-400">*</span>
+                            </label>
+                            <div class="relative">
+                                <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400">
+                                    <i class="fa-regular fa-calendar text-xs"></i>
+                                </div>
+                                <input type="date" id="date" required
+                                    class="w-full bg-slate-900/80 border border-slate-700 rounded-lg pl-10 pr-3.5 py-2.5 text-sm text-slate-100 placeholder-slate-500 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition [color-scheme:dark]">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Chemical Category Selection Dropdown -->
+                    <div>
+                        <label for="chemicalType" class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-1.5">
+                            Select Chemical Required <span class="text-red-400">*</span>
+                        </label>
+                        <div class="relative">
+                            <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400">
+                                <i class="fa-solid fa-vial text-xs"></i>
+                            </div>
+                            <select id="chemicalType" required
+                                class="w-full bg-slate-900/80 border border-slate-700 rounded-lg pl-10 pr-3.5 py-2.5 text-sm text-slate-100 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition appearance-none">
+                                <option value="">-- Select Product / Service --</option>
+                                <option value="Roof Waterproofing Chemical">Roof Waterproofing Chemical</option>
+                                <option value="Heat Proofing Solar Coating">Heat Proofing & Solar Coating</option>
+                                <option value="Epoxy Industrial Floor Coating">Epoxy Industrial Floor Coating</option>
+                                <option value="Polyurethane Joint Sealant">Polyurethane Joint Sealant</option>
+                                <option value="Water Tank Leakage Chemical">Water Tank Leakage Chemical</option>
+                                <option value="Custom Chemical Solution">Other Custom Inquiry</option>
+                            </select>
+                            <div class="absolute inset-y-0 right-0 pr-3.5 flex items-center pointer-events-none text-slate-400">
+                                <i class="fa-solid fa-chevron-down text-xs"></i>
+                            </div>
+                        </div>
+                        <p id="chemicalError" class="text-xs text-red-400 mt-1 hidden flex items-center gap-1">
+                            <i class="fa-solid fa-circle-exclamation text-[10px]"></i>
+                            <span>Baraye meharbani chemical ki qisam select karein.</span>
+                        </p>
+                    </div>
+
+                    <!-- Detailed Message Box -->
+                    <div>
+                        <label for="message" class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-1.5">
+                            Message / Technical Requirement <span class="text-red-400">*</span>
+                        </label>
+                        <textarea id="message" rows="3" required placeholder="Project details, roof square feet area, or chemical requirements..."
+                            onblur="validateMessage()" oninput="validateMessage()"
+                            class="w-full bg-slate-900/80 border border-slate-700 rounded-lg p-3 text-sm text-slate-100 placeholder-slate-500 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition resize-none"></textarea>
+                        <p id="messageError" class="text-xs text-red-400 mt-1 hidden flex items-center gap-1">
+                            <i class="fa-solid fa-circle-exclamation text-[10px]"></i>
+                            <span>Message me tafseelat likhna zaroori hai.</span>
+                        </p>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <button type="submit"
+                        class="w-full bg-blue-600 hover:bg-blue-500 text-white font-bold py-3.5 rounded-xl transition duration-200 shadow-lg shadow-blue-600/30 active:scale-[0.99] flex items-center justify-center gap-2">
+                        <i class="fa-solid fa-paper-plane text-sm"></i>
+                        <span>Submit Inquiry To Forever Chemical</span>
+                    </button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Interactive Success Modal Alert -->
+    <div id="successModal" class="fixed inset-0 bg-slate-950/80 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
+        <div class="bg-slate-800 border border-slate-700 max-w-md w-full rounded-2xl p-6 text-center shadow-2xl relative transform transition-all scale-100">
+            <div class="w-16 h-16 bg-emerald-500/20 border border-emerald-500/30 text-emerald-400 rounded-full flex items-center justify-center mx-auto mb-4">
+                <i class="fa-solid fa-circle-check text-3xl"></i>
+            </div>
+            <h3 class="text-xl font-bold text-white mb-2">Inquiry Submitted Successfully!</h3>
+            <p class="text-xs text-slate-300 mb-6 leading-relaxed">
+                Shukriya! <strong class="text-white">FOREVER CHEMICAL(SMC)PVT LTD</strong> ki team aap k message par jald se jald rabta kare gi.
+            </p>
+
+            <div class="bg-slate-900/80 border border-slate-700/80 rounded-xl p-3.5 text-left text-xs space-y-1.5 mb-6 text-slate-300">
+                <p><span class="text-slate-500">Name:</span> <span id="summaryName" class="font-medium text-white"></span></p>
+                <p><span class="text-slate-500">Phone:</span> <span id="summaryPhone" class="font-medium text-white"></span></p>
+                <p><span class="text-slate-500">Email:</span> <span id="summaryEmail" class="font-medium text-white"></span></p>
+                <p><span class="text-slate-500">Chemical:</span> <span id="summaryChemical" class="font-medium text-blue-400"></span></p>
+            </div>
+
+            <button onclick="closeModal()" class="w-full bg-slate-700 hover:bg-slate-600 text-white font-medium py-2.5 rounded-xl transition">
+                Close
+            </button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="max-w-7xl mx-auto w-full text-center text-xs text-slate-500 mt-8 pt-4 border-t border-slate-800">
+        &copy; 2026 FOREVER CHEMICAL(SMC)PVT LTD. All rights reserved.
+    </footer>
+
+    <!-- JavaScript logic & Form Validation Engine -->
+    <script>
+        // Set default date picker to today
+        document.getElementById('date').valueAsDate = new Date();
+
+        // 1. Phone validation (Strict: Numbers only, no letters/alphabets)
+        function validatePhone() {
+            const phoneInput = document.getElementById('phone');
+            const phoneError = document.getElementById('phoneError');
+            const phoneErrorText = document.getElementById('phoneErrorText');
+            const val = phoneInput.value.trim();
+
+            // Check if user typed alphabets or special non-phone characters
+            const containsAlphabets = /[a-zA-Z]/.test(val);
+            // Strict regex check for phone format (digits, optional leading +)
+            const phoneRegex = /^\+?[0-9]{10,15}$/;
+
+            if (val === '') {
+                showError(phoneInput, phoneError, "Phone number likhna zaroori hai.");
+                return false;
+            } else if (containsAlphabets) {
+                showError(phoneInput, phoneError, "Ghalti: Phone number me alphabets/letters allow nahi hain! Sirf numbers (0-9) darj karein.");
+                return false;
+            } else if (!phoneRegex.test(val.replace(/\s+/g, ''))) {
+                showError(phoneInput, phoneError, "Sahi phone number darj karein (at least 10 digits).");
+                return false;
+            } else {
+                hideError(phoneInput, phoneError);
+                return true;
+            }
+        }
+
+        // 2. Email validation (Strict email regex pattern)
+        function validateEmail() {
+            const emailInput = document.getElementById('email');
+            const emailError = document.getElementById('emailError');
+            const val = emailInput.value.trim();
+
+            // Standard RFC 5322 regex for strict email format
+            const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
+            if (val === '') {
+                showError(emailInput, emailError, "Email address likhna zaroori hai.");
+                return false;
+            } else if (!emailRegex.test(val)) {
+                showError(emailInput, emailError, "Ghalti: Sahi email format likhein (maslan: name@domain.com).");
+                return false;
+            } else {
+                hideError(emailInput, emailError);
+                return true;
+            }
+        }
+
+        // 3. Name validation
+        function validateName() {
+            const nameInput = document.getElementById('fullName');
+            const nameError = document.getElementById('nameError');
+            if (nameInput.value.trim().length < 2) {
+                showError(nameInput, nameError, "Baraye meharbani apna mukammal naam darj karein.");
+                return false;
+            } else {
+                hideError(nameInput, nameError);
+                return true;
+            }
+        }
+
+        // 4. Message validation
+        function validateMessage() {
+            const msgInput = document.getElementById('message');
+            const msgError = document.getElementById('messageError');
+            if (msgInput.value.trim().length < 5) {
+                showError(msgInput, msgError, "Message me kam se kam 5 alfaz likhein.");
+                return false;
+            } else {
+                hideError(msgInput, msgError);
+                return true;
+            }
+        }
+
+        // Helper functions to show/hide error styling
+        function showError(inputElem, errorElem, message) {
+            inputElem.classList.add('border-red-500', 'focus:border-red-500', 'focus:ring-red-500');
+            inputElem.classList.remove('border-slate-700', 'focus:border-blue-500');
+            errorElem.querySelector('span').innerText = message;
+            errorElem.classList.remove('hidden');
+        }
+
+        function hideError(inputElem, errorElem) {
+            inputElem.classList.remove('border-red-500', 'focus:border-red-500', 'focus:ring-red-500');
+            inputElem.classList.add('border-slate-700', 'focus:border-blue-500');
+            errorElem.classList.add('hidden');
+        }
+
+        // Form Submission Handler
+        function handleFormSubmit(e) {
+            e.preventDefault();
+
+            const isNameValid = validateName();
+            const isPhoneValid = validatePhone();
+            const isEmailValid = validateEmail();
+            const isMsgValid = validateMessage();
+
+            const chemSelect = document.getElementById('chemicalType');
+            const chemError = document.getElementById('chemicalError');
+            let isChemValid = true;
+
+            if (!chemSelect.value) {
+                chemSelect.classList.add('border-red-500');
+                chemError.classList.remove('hidden');
+                isChemValid = false;
+            } else {
+                chemSelect.classList.remove('border-red-500');
+                chemError.classList.add('hidden');
+            }
+
+            // Prevent form submit if any validation fails
+            if (!isNameValid || !isPhoneValid || !isEmailValid || !isChemValid || !isMsgValid) {
+                return false;
+            }
+
+            // Fill summary modal data
+            document.getElementById('summaryName').innerText = document.getElementById('fullName').value;
+            document.getElementById('summaryPhone').innerText = document.getElementById('phone').value;
+            document.getElementById('summaryEmail').innerText = document.getElementById('email').value;
+            document.getElementById('summaryChemical').innerText = chemSelect.value;
+
+            // Show success modal
+            document.getElementById('successModal').classList.remove('hidden');
+        }
+
+        function closeModal() {
+            document.getElementById('successModal').classList.add('hidden');
+            document.getElementById('chemicalForm').reset();
+            document.getElementById('date').valueAsDate = new Date();
+        }
+    </script>
+</body>
+</html>
