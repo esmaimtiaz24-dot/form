@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FOREVER CHEMICAL(SMC) PVT LTD | Inquiry Form</title>
+<style>
+:root{--blue:#0756a6;--cyan:#13b8e6;--ink:#18304a;--muted:#63758a;--line:#dce6ef;--bg:#f2f7fb}
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:linear-gradient(135deg,#eef8ff,#f7fbff 55%,#e9f6fb);color:var(--ink);min-height:100vh;padding:28px 16px}
+.shell{max-width:1050px;margin:auto;background:#fff;border-radius:24px;overflow:hidden;box-shadow:0 20px 65px #123b5a20;display:grid;grid-template-columns:330px 1fr}
+.sidebar{background:linear-gradient(155deg,#064d9b,#0878bd 58%,#10b9dc);color:white;padding:34px 28px;position:relative;overflow:hidden}
+.sidebar:after{content:"";position:absolute;width:260px;height:260px;border:1px solid #ffffff25;border-radius:50%;bottom:-135px;right:-100px;box-shadow:0 0 0 25px #ffffff0a,0 0 0 50px #ffffff0a}
+.logo-wrap{background:white;border-radius:16px;padding:12px;text-align:center;margin-bottom:28px}
+.logo{max-width:100%;width:190px;height:125px;object-fit:contain;display:block;margin:auto}
+.eyebrow{font-size:11px;letter-spacing:2px;text-transform:uppercase;font-weight:800;opacity:.8}
+h1{font-size:27px;line-height:1.18;margin:10px 0 14px;letter-spacing:-.5px}
+.sidebar p{font-size:14px;line-height:1.7;color:#e6f7ff}
+.pill{display:inline-block;border:1px solid #ffffff65;background:#ffffff12;border-radius:30px;padding:7px 11px;font-size:11px;margin:5px 4px 0 0}
+.side-title{font-size:14px;font-weight:800;margin:27px 0 9px}
+.side-list{padding-left:18px;margin:0;font-size:13px;line-height:1.9;color:#e6f7ff}
+.content{padding:38px 42px}
+.topline{display:flex;justify-content:space-between;gap:16px;align-items:flex-start;margin-bottom:26px}
+.kicker{color:var(--blue);font-size:11px;letter-spacing:1.8px;font-weight:800;text-transform:uppercase}
+h2{margin:7px 0 8px;font-size:29px;letter-spacing:-.7px}
+.intro{color:var(--muted);font-size:14px;line-height:1.6;margin:0;max-width:540px}
+.secure{white-space:nowrap;border:1px solid #cfeadd;color:#19734c;background:#f0fbf5;border-radius:30px;padding:8px 11px;font-size:11px;font-weight:700}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:17px}
+.field{display:flex;flex-direction:column;gap:7px}
+.field.full{grid-column:1/-1}
+label{font-size:12px;font-weight:750;color:#30465c}
+.required{color:#e14d54}
+input,select,textarea{font:inherit;font-size:14px;color:var(--ink);width:100%;border:1px solid var(--line);background:#fbfdff;border-radius:10px;padding:13px 14px;outline:none;transition:.2s}
+input:focus,select:focus,textarea:focus{border-color:#21a9dc;box-shadow:0 0 0 3px #21a9dc18;background:#fff}
+textarea{min-height:112px;resize:vertical;line-height:1.5}
+.hint{font-size:11px;color:var(--muted);line-height:1.4}
+.error{font-size:11px;color:#c62828;min-height:0;display:none}
+.field.invalid .error{display:block}
+.field.invalid input,.field.invalid select,.field.invalid textarea{border-color:#d93036;background:#fffafa}
+.checkline{display:flex;align-items:flex-start;gap:10px;font-size:12px;line-height:1.5;color:#52687b}
+.checkline input{width:16px;height:16px;margin:1px 0 0;accent-color:var(--blue);flex-shrink:0}
+.captcha{display:flex;align-items:center;gap:12px;flex-wrap:wrap;border:1px dashed #b9d8e8;border-radius:12px;padding:13px;background:#f5fbff}
+.captcha-question{font-weight:800;color:var(--blue);font-size:14px}
+.captcha input{max-width:110px;padding:9px 10px;background:white}
+.captcha .error{flex-basis:100%}
+.actions{display:flex;align-items:center;gap:15px;margin-top:22px;flex-wrap:wrap}
+button{border:0;border-radius:11px;background:linear-gradient(100deg,#0756a6,#0b9fd0);color:white;padding:14px 22px;font-weight:800;font-size:14px;cursor:pointer;box-shadow:0 8px 20px #0878bd2b}
+button:hover{filter:brightness(1.05);transform:translateY(-1px)}
+.privacy{font-size:11px;color:#738397;line-height:1.5;max-width:270px}
+.status{display:none;margin-top:16px;border-radius:10px;padding:12px 14px;font-size:13px;line-height:1.5}
+.status.success{display:block;background:#eefaf3;color:#17633e;border:1px solid #c8ead7}
+.status.fail{display:block;background:#fff3f3;color:#a12626;border:1px solid #f0cccc}
+.footer{border-top:1px solid #edf1f5;margin-top:28px;padding-top:15px;color:#8392a2;font-size:10px;line-height:1.6}
+@media(max-width:800px){.shell{grid-template-columns:1fr}.sidebar{padding:25px}.logo-wrap{max-width:230px}.sidebar h1{max-width:500px}.content{padding:28px 23px}.topline{flex-direction:column}h2{font-size:25px}}
+@media(max-width:480px){body{padding:10px}.shell{border-radius:16px}.grid{grid-template-columns:1fr}.field.full{grid-column:auto}.content{padding:23px 17px}.secure{white-space:normal}}
+</style>
+</head>
+<body>
+<div class="shell">
+  <aside class="sidebar">
+    <div class="logo-wrap"><img class="logo" src="forever-chemical-logo.png" alt="Forever Chemical logo"></div>
+    <div class="eyebrow">Industrial • Chemical Solutions</div>
+    <h1>FOREVER CHEMICAL(SMC) PVT LTD</h1>
+    <p>Share your chemical requirements with our team. Provide accurate contact details and product information so your inquiry can be reviewed efficiently.</p>
+    <span class="pill">Product Inquiry</span><span class="pill">Bulk Requirements</span><span class="pill">Technical Information</span>
+    <div class="side-title">What can you enquire about?</div>
+    <ul class="side-list">
+      <li>Industrial and specialty chemicals</li>
+      <li>Raw materials and bulk supply</li>
+      <li>Product specifications and SDS/MSDS</li>
+      <li>Packaging, quantity and quotations</li>
+      <li>Safe handling and storage information</li>
+    </ul>
+    <p style="font-size:11px;margin-top:28px;color:#d9f4ff">Please mention the product name, grade, required quantity and intended application in your message.</p>
+  </aside>
+  <main class="content">
+    <div class="topline">
+      <div><div class="kicker">Contact our team</div><h2>Chemical Inquiry Form</h2><p class="intro">Fill in the details below. Fields marked with <span class="required">*</span> are required.</p></div>
+      <div class="secure">✓ Form validation enabled</div>
+    </div>
+    <form id="inquiryForm" novalidate>
+      <div class="grid">
+        <div class="field" id="nameField">
+          <label for="name">Full name <span class="required">*</span></label>
+          <input id="name" name="name" type="text" autocomplete="name" placeholder="Enter your full name" maxlength="80" required>
+          <span class="error">Enter a name using letters; spaces, apostrophes and hyphens are allowed.</span>
+        </div>
+        <div class="field" id="phoneField">
+          <label for="phone">Phone number <span class="required">*</span></label>
+          <input id="phone" name="phone" type="tel" inputmode="numeric" autocomplete="tel" placeholder="e.g. 03001234567" maxlength="15" required>
+          <span class="hint">Digits only (optional leading +); 7–15 digits.</span>
+          <span class="error">Enter a valid phone number with 7–15 digits. Alphabets are not allowed.</span>
+        </div>
+        <div class="field full" id="emailField">
+          <label for="email">Business email <span class="required">*</span></label>
+          <input id="email" name="email" type="email" autocomplete="email" placeholder="name@company.com" maxlength="254" required>
+          <span class="hint">Use a valid email format, such as name@company.com.</span>
+          <span class="error">Enter a valid email address (for example, name@company.com).</span>
+        </div>
+        <div class="field" id="productField">
+          <label for="product">Chemical / product of interest <span class="required">*</span></label>
+          <input id="product" name="product" type="text" placeholder="Product name or chemical type" maxlength="120" required>
+          <span class="error">Please enter the chemical or product name.</span>
+        </div>
+        <div class="field" id="quantityField">
+          <label for="quantity">Required quantity</label>
+          <input id="quantity" name="quantity" type="text" placeholder="e.g. 25 kg, 200 litres" maxlength="80">
+          <span class="hint">Include unit/packaging if known.</span>
+        </div>
+        <div class="field full" id="messageField">
+          <label for="message">Message / requirements <span class="required">*</span></label>
+          <textarea id="message" name="message" placeholder="Tell us about grade/specification, intended use, quantity, packaging, delivery location or documents required (e.g. SDS/MSDS)." maxlength="3000" required></textarea>
+          <span class="error">Please enter at least 10 characters describing your requirements.</span>
+        </div>
+        <div class="field full" id="captchaField">
+          <label>Human verification <span class="required">*</span></label>
+          <div class="captcha">
+            <span class="captcha-question" id="captchaQuestion">Solve: 3 + 4 = ?</span>
+            <input id="captchaAnswer" type="text" inputmode="numeric" placeholder="Your answer" maxlength="3" required aria-label="Human verification answer">
+            <button type="button" id="newCaptcha" style="padding:9px 12px;font-size:12px;box-shadow:none">New question ↻</button>
+            <span class="error">Please solve the verification question correctly.</span>
+          </div>
+        </div>
+        <div class="field full" id="consentField">
+          <label class="checkline"><input id="consent" type="checkbox" required><span>I confirm that the contact details and information supplied are accurate, and I agree that the company may contact me about this inquiry. <span class="required">*</span></span></label>
+          <span class="error">Please confirm before submitting.</span>
+        </div>
+      </div>
+      <div class="actions">
+        <button type="submit">Validate &amp; Submit Inquiry →</button>
+        <span class="privacy">Your details should be handled responsibly and used to respond to this inquiry.</span>
+      </div>
+      <div id="status" class="status" role="status" aria-live="polite"></div>
+    </form>
+    <div class="footer">FOREVER CHEMICAL(SMC) PVT LTD · Chemical inquiry and contact form<br>Safety note: Always request the product's current Safety Data Sheet (SDS/MSDS) and follow applicable handling, storage and transport instructions.</div>
+  </main>
+</div>
+<script>
+(() => {
+  const form = document.getElementById('inquiryForm');
+  const statusBox = document.getElementById('status');
+  const phone = document.getElementById('phone');
+  const email = document.getElementById('email');
+  let captchaA, captchaB;
+
+  function makeCaptcha() {
+    captchaA = Math.floor(Math.random() * 8) + 2;
+    captchaB = Math.floor(Math.random() * 8) + 1;
+    document.getElementById('captchaQuestion').textContent = `Solve: ${captchaA} + ${captchaB} = ?`;
+    document.getElementById('captchaAnswer').value = '';
+    clearField('captchaField');
+  }
+  function setField(id, valid) {
+    const el = document.getElementById(id);
+    el.classList.toggle('invalid', !valid);
+    return valid;
+  }
+  function clearField(id) { document.getElementById(id).classList.remove('invalid'); }
+
+  // Permit only digits and a single optional leading + while typing.
+  phone.addEventListener('input', () => {
+    let value = phone.value.replace(/[^\d+]/g, '');
+    value = value.replace(/(?!^)\+/g, '');
+    phone.value = value;
+    clearField('phoneField');
+  });
+  email.addEventListener('input', () => clearField('emailField'));
+
+  document.getElementById('newCaptcha').addEventListener('click', makeCaptcha);
+
+  form.addEventListener('submit', (event) => {
+    event.preventDefault();
+    statusBox.className = 'status';
+    statusBox.textContent = '';
+
+    const name = document.getElementById('name').value.trim();
+    const phoneValue = phone.value.trim();
+    const emailValue = email.value.trim();
+    const product = document.getElementById('product').value.trim();
+    const message = document.getElementById('message').value.trim();
+    const phoneDigits = phoneValue.replace(/\D/g, '');
+    const nameValid = /^[\p{L}][\p{L}\p{M} .'-]{1,79}$/u.test(name);
+    const phoneValid = /^\+?\d{7,15}$/.test(phoneValue) && phoneDigits.length >= 7 && phoneDigits.length <= 15;
+    const emailValid = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)+$/.test(emailValue)
+      && !emailValue.includes('..') && emailValue.length <= 254;
+    const productValid = product.length >= 2;
+    const messageValid = message.length >= 10;
+    const captchaValid = /^\d+$/.test(document.getElementById('captchaAnswer').value.trim())
+      && Number(document.getElementById('captchaAnswer').value.trim()) === captchaA + captchaB;
+    const consentValid = document.getElementById('consent').checked;
+
+    const checks = [
+      setField('nameField', nameValid),
+      setField('phoneField', phoneValid),
+      setField('emailField', emailValid),
+      setField('productField', productValid),
+      setField('messageField', messageValid),
+      setField('captchaField', captchaValid),
+      setField('consentField', consentValid)
+    ];
+
+    if (checks.some(valid => !valid)) {
+      statusBox.className = 'status fail';
+      statusBox.textContent = 'Please correct the highlighted fields and try again.';
+      const firstInvalid = form.querySelector('.field.invalid input, .field.invalid textarea');
+      if (firstInvalid) firstInvalid.focus();
+      return;
+    }
+
+    // Front-end demo: validation succeeds, but no email/database submission occurs without a backend.
+    statusBox.className = 'status success';
+    statusBox.textContent = 'All checks passed! This demo form has validated your inquiry in the browser. To actually send/store inquiries, connect a secure backend or form service.';
+  });
+
+  makeCaptcha();
+})();
+</script>
+</body>
+</html>
